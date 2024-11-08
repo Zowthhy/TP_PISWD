@@ -34,7 +34,7 @@ $menus =mysqli_query($conn,$query);
 
     <div id="menu">
     <?php foreach ($menus as $menu): ?>  <!-- Se recorren todos los menu en la tabla menu de la BD -->
-        <form method="post" action="/TP_PISWD1/PHP/actualizar_estado.php"> <!-- Cuando se presiona el botón, se ejecuta el archivo actualizar_estado.php -->
+        <form method="post" action="PHP/actualizar_estado.php"> <!-- Cuando se presiona el botón, se ejecuta el archivo actualizar_estado.php -->
             <input type="hidden" name="menu_nombre" value="<?= htmlspecialchars($menu['nombre']) ?>">  <!-- Se guardan los datos del menu con dos inputs ocultos --> 
             <input type="hidden" name="abierto" value="<?= $menu['abierto'] ? 0 : 1 ?>"> <!-- si es "true" se almacena 1 y si es "false" se almacena 0 (Operador ternario) -->
             <button type="submit" class="btn" id="btn<?= htmlspecialchars($menu['nombre']) ?>"><?= htmlspecialchars($menu['nombre']) ?></button>
