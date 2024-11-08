@@ -1,9 +1,9 @@
 # PISWD
-Grupo J SysAdmin.htm
+Grupo J SysAdmin.php
 
 
 # Trabajo Práctico Nº2 (front end)
-# Grupo J -> desarrollo de SysAdmin.htm
+# Grupo J -> desarrollo de SysAdmin.php
 
 # Carpeta Estilos: contiene un archivo de estilo.
 #   styles.css : contiene una fuente Verdana para toda la página, textos y botones centrados y justificados,  la imagen de la entrada del colegio en todo el largo de la página y con una altura del 30% de la misma.
